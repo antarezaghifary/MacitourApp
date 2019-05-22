@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">MacitourApp</string>
+    <string name="urname">Your Name</string>
+    <string name="email">Email</string>
+    <string name="uname">Username</string>
+    <string name="pass">Password</string>
+    <string name="conf">Confirm Password</string>
+    <string name="signup">SIGNUP</string>
+    <string name="login">LOGIN</string>
+    <string name="next">NEXT</string>
+    <string name="back">BACK</string>
+    <string name="get">GET START</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_detail">DetailActivity</string>
+    <string name="direction">GET DIRECTIONS</string>
+</resources>

@@ -1,0 +1,86 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/splash"
+    android:orientation="vertical"
+    android:padding="45dp"
+    tools:context="smktelkom_mlg.macitourapp.Login">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:text="Welcome guest, in Macitour"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+
+    <ImageView
+        android:layout_width="160dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="10dp"
+        app:srcCompat="@drawable/logosplash" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:paddingTop="3dp"
+        android:text="Pariwisata dalam negeri untuk membangun serta mengingat akan keaneragaman budaya bangsa Indonesia."
+        android:textAlignment="center"
+        android:textColor="@color/yellow"
+        android:textSize="15sp" />
+
+    <EditText
+        android:id="@+id/etUser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/ic_account_circle_white_24dp"
+        android:drawablePadding="14dp"
+        android:ems="10"
+        android:hint="@string/uname"
+        android:inputType="textPersonName"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white" />
+
+    <EditText
+        android:id="@+id/etPass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/ic_lock_white_24dp"
+        android:drawablePadding="14dp"
+        android:ems="10"
+        android:fontFamily="sans-serif"
+        android:hint="@string/pass"
+        android:inputType="textPassword"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white" />
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="50dp"
+        android:background="@color/colorAccent"
+        android:text="Log In"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/btnSignup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:background="@android:color/transparent"
+        android:text="Want to start collaborating? Sign up, it’s free!"
+        android:textAllCaps="false"
+        android:textColor="@color/white" />
+</LinearLayout>
+</LinearLayout>

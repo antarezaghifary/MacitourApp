@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="20dp">
+    <TextView
+        android:id="@+id/txtSatu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="189dp"
+        android:text="Selamat Datang !"
+        android:textColor="@color/white"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtDua"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Di Macitour"
+        android:textColor="@color/white"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:id="@+id/txtTiga"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ngalam City "
+        android:textColor="@color/yellow"
+        android:textSize="30sp"/>
+
+    <TextView
+        android:id="@+id/txtEmpat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/txtTiga"
+        android:layout_below="@+id/txtTiga"
+        android:text="TextView"
+        android:textColor="@color/white"
+        android:textSize="16sp" />
+    </LinearLayout>
+</RelativeLayout>
